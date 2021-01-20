@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="playlist.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="musicLibrary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="song.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="localSong.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="streamSong.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="musicLibraryTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="musicLibrary.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="playlist.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="song.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="localSong.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="streamSong.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{57804796-c9c7-4f2b-9142-9454b7096367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{f6519532-9146-440d-9c24-a3fe39a80125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{964ab7ac-a2ef-47da-9a7a-12f18311f4e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests\musicLibraryTest">
+      <UniqueIdentifier>{f9ab87b2-fe20-440d-b0fe-c14db4b555e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

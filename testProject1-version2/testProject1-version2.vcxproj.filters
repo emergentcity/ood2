@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CalcFunc.cpp" />
+    <ClCompile Include="packages\gmock.1.10.0\lib\native\src\gtest\src\gtest_main.cc" />
+    <ClCompile Include="RuleLogic.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc" />
+    <ClCompile Include="pch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="musicLibrary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="localSong.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="playlist.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="song.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="streamSong.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CalcFunc.h" />
+    <ClInclude Include="RuleLogic.h" />
+    <ClInclude Include="pch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="localSong.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="musicLibrary.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="playlist.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="song.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="streamSong.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="packages\gmock.1.10.0\build\native\gmock.targets" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9ced0747-bd5a-4d95-a1b9-729122963bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{7f9e6bb6-9bd7-423a-9a73-e8dc7bbe91a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{cfcbb768-6819-4267-89af-aaeeb86414a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
